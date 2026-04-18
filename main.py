@@ -1,5 +1,5 @@
 """
-RTAI-242P | Practical 6 — Model Optimization: Pruning & Quantization
+Model Optimization: Pruning & Quantization
 Terminal script (no UI). Trains, prunes, quantizes, then prints a comparison table.
 Run: python main.py
 """
@@ -184,8 +184,8 @@ def main():
         print(f"{label:<15} {acc:>9.2f}% {size:>11.1f}  {infer:>15.2f}  {sp:>9.1f}%")
     print("=" * 70)
 
-    print("\n✅ All models saved: baseline_model.pt | pruned_model.pt | quantized_model.pt")
-    print("✅ Done. Run `streamlit run app.py` for the interactive dashboard.\n")
+    print("\nAll models saved: baseline_model.pt | pruned_model.pt | quantized_model.pt")
+    print("Done. Run `streamlit run app.py` for the interactive dashboard.\n")
 
 
 if __name__ == "__main__":
